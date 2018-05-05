@@ -1,0 +1,25 @@
+<html>
+    <body style="margin: 15px; border: 2px solid #505050; width: 1138px;">
+        <header
+            style="
+            height: 360px;
+            background-size: 100%;
+            background-repeat: no-repeat;
+            background-image: url('https://firebasestorage.googleapis.com/v0/b/bimvc-3cac4.appspot.com/o/cert__header.jpg?alt=media&token=995597ba-8b49-4f92-ae3c-1f00ae84072f')"></header>
+        <main style="margin: 10px; text-align: center;">
+            <h2 style="color:#ababab;">Настоящий сертификат подтверждает, что</h2>
+            <h2 style="background-color: red; color: white; padding: 5px; max-width: 90%; margin: 0 auto;">${displayName}</h2>
+            <h2 style="color:#ababab;">Успешно сдал экзамен по направлению:</h2>
+            <h2 style="color:#ababab;">${courseName}</h2>
+        </main>
+        <footer style="display: flex; justify-content: space-between; color: #d1d1d1;">
+            <div>
+                <p>Дата сдачи: ${date}<br>Результат: %{result}</p>
+                <p>ООО Высоцкий Консалтинг</p>
+            </div>
+            <div>
+                <p>Генеральный директор <img src=""> Высоцкий А.Е.</p>
+            </div>
+        </footer>
+    </body>
+</html>
